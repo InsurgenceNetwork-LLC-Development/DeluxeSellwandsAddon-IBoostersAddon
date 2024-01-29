@@ -12,7 +12,7 @@ public final class DeluxeSellwandsEventListener implements Listener {
     public void onSell(DeluxeSellwandSellEvent event) {
         final String TYPE = "Sell";
         final String NAMESPACE = "DELUXE_SELLWANDS";
-        final double[] totalMulti = {1};
+        final double[] totalMulti = {0};
 
         BoosterFindResult pResult = IBoosterAPI.INSTANCE.getCache(event.getPlayer()).getBoosterDataManager().findActiveBooster(TYPE, NAMESPACE);
         if (pResult instanceof BoosterFindResult.Success boosterResult) {
@@ -24,7 +24,9 @@ public final class DeluxeSellwandsEventListener implements Listener {
             return null;
         }, () -> null);
 
-        event.setMoney(calculateAmount(event.getMoney(), totalMulti[0]));
+        if (totalMulti[0] > 0) {
+            event.setMoney(calculateAmount(event.getMoney(), totalMulti[0]));
+        }
     }
 
     private double calculateAmount(double amount, double multi) {
