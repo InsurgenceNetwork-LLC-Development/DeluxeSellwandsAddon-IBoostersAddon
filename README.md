@@ -1,1 +1,1 @@
-DeluxeSellwands Addon
+DeluxeSellwands Support
