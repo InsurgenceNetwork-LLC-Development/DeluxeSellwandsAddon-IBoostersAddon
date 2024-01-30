@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30315340-288e-4ddc-a158-7d20104508a3" name="Changes" comment="api jar update" />
+    <list default="true" id="30315340-288e-4ddc-a158-7d20104508a3" name="Changes" comment="fixed multi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,13 +113,22 @@
       <option name="project" value="LOCAL" />
       <updated>1706418540019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed multi">
+      <option name="closed" value="true" />
+      <created>1706496274582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706496274582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="updated multi handling" />
     <MESSAGE value="api jar update" />
-    <option name="LAST_COMMIT_MESSAGE" value="api jar update" />
+    <MESSAGE value="fixed multi" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed multi" />
   </component>
 </project>
